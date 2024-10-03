@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Coding Portfolio</h1>
+        <p>Showcasing my projects, skills, and passion for programming.</p>
+        <a href="about.html" class="btn">Learn More</a>
+    </section>
+
+    <section id="projects">
+        <h2>Featured Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>A short description of the project. <a href="https://github.com/yourusername/project1" target="_blank">View on GitHub</a></p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>A short description of the project. <a href="https://github.com/yourusername/project2" target="_blank">View on GitHub</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Nicolaj M. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
